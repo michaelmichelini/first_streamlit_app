@@ -22,7 +22,6 @@ try:
     streamlit.dataframe(fruityvice_normalized)
 except URLERROR as e:
   streamlit.error()
-streamlit.stop()
 
 #snowflake related functions
 def get_fruit_load_list():
